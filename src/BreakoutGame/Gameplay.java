@@ -18,7 +18,7 @@ import javax.swing.JPanel;
 public class Gameplay extends JPanel implements KeyListener, ActionListener { // KeyListener for detecting error keys; ActionListener for detecting the ball
 	Random random = new Random();
 	int n = random.nextInt(2+1-2) - 2;
-	private boolean play = false;
+	private boolean play = false; 
 	private int score = 0, totalBricks = 21 ;
 	private int delay = 5, playerX = 310, ballPosX = 120, ballPosY = 350, ballXDir = n, ballYDir = -2; 
 	private brickMap brick;
